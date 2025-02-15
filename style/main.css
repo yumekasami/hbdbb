@@ -291,19 +291,24 @@ body {
   }
 }
 .grogumini {
-    width: 300px; /* Adjust size */
-    position: fixed; /* Keeps it in place */
-    right: 20px; /* Distance from right */
-    bottom: 20px; /* Distance from bottom */
-    z-index: 1000; /* Puts it above other elements */
+    width: 359px; /* Makes the image smaller */
+    height: 331px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
     
+    /* Hide it initially */
+    display: none;
+
     /* Vibrating Animation */
     animation: vibrate 0.2s infinite alternate;
 }
 
-/* Keyframes for Vibration */
+/* Vibration effect */
 @keyframes vibrate {
     0% { transform: translateX(-2px); }
     100% { transform: translateX(2px); }
 }
+
 
