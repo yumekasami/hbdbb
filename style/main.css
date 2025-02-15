@@ -290,11 +290,11 @@ body {
     font-weight: lighter;
   }
 }
-.grogu {
-    width: 80px; /* Makes the image smaller */
-    height: auto;
+.grogumini {
+    width: 359px; /* Makes the image smaller */
+    height: 331px;
     position: relative;
-    animation: vibrate 0.1s infinite linear; /* Continuous vibration */
+    animation: vibrate 0.5s infinite linear; /* Continuous vibration */
 }
 
 @keyframes vibrate {
